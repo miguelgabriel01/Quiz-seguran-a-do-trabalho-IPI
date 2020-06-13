@@ -1,0 +1,34 @@
+
+	
+	body{
+		
+color: white;
+		font-family: arial, Verdana, Geneva, sans-serif;
+		text-align: center;
+	
+	font-size:45px ;
+		background-color: black;
+
+		}
+
+		.menu{
+		font-size:80px;
+		color:white;
+		  text-decoration: none;
+		}
+		div{
+			text-decoration: none;
+			color: white;
+			font-size: 50px;
+			transition: 	width 2s,height 4s; 	}
+			voltar:hover{
+				width:100px;
+				height:100px;
+			}
+	.voltar{
+
+
+	color:white;
+	text-decoration: none;
+	font-size: 50px;
+	}

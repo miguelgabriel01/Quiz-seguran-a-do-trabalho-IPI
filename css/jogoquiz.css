@@ -1,0 +1,158 @@
+body {
+  font: 300 18px/1.5 'Roboto', sans-serif;
+  color:black;
+  background-color:black;
+/*background-color:pink;*/
+/*background-image: url('img13.jpg');*/
+/*background-repeat: no-repeat;*/
+/*background-size: 100%*/
+
+  
+}
+
+.divprin {
+  max-width: 640px;
+  margin: 900px auto;
+  padding: 35px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 10px;
+}
+
+#divprin {
+  max-width: 640px;
+  margin: 300px auto;
+  padding: 35px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 10x;
+  position: relative;
+  top: -260px;
+}
+
+
+.divmeio {
+  border-bottom: 3px dashed pink;
+  padding: 0 0 30px;
+  margin: 0 0 30px;
+}
+
+.row {
+  margin: 0 0 15px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 30px;
+  margin: 0 0 20px;
+}
+
+
+
+.radioed input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.radioed input[type="radio"]+label {
+  position: relative;
+  padding: 3px 0 0 40px;
+  cursor: pointer;
+  cursor-color:black;
+}
+
+.radioed input[type="radio"]+label:before {
+  content: '';
+  background: white;
+  border: 2px solid black;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.radioed input[type="radio"]+label:after {
+  content: '';
+  background: black; 
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  opacity: -2;
+  transform: scale(2);
+  transition: transform 0.3s linear, opacity 0.3s linear;
+}
+
+.radioed input[type="radio"]:checked+label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+a{
+color:white;
+font-size:60px;
+text-decoration:none;
+position: relative;
+right:-160px;
+}
+.reiniciar{
+color: white;
+font-size: 60px;
+text-decoration: none;
+position: absolute;
+right: 120px;
+
+
+
+}
+.conf{
+color:green;
+font-size:40px;
+text-align:right;
+padding:5px;
+margin:5px;
+}
+ button{
+	width: 80px;
+	height: 30px;
+	background-color: white;
+	border: none;
+	position: relative;
+	left: 450px;
+}
+
+.c{
+	color: green;
+	font-size: 40px;
+}
+
+#prox{
+	color:green;
+	font-size: 40px;
+	position: absolute;
+	right: 380px;
+}
+
+
+#proxi{
+	color:green;
+	font-size: 40px;
+	position: relative;
+	left:  500px;
+	bottom: 1px;
+}
+
+
+
+#ant{
+	color:red;
+	font-size: 40px;
+	position: relative;
+	left: 5px;
+}
+
+
+
